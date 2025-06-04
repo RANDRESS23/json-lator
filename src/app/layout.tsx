@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JSONLator | Translate your JSON documents quickly and efficiently",
-  description: "In this app, you can translate your JSON documents quickly and efficiently.",
+  title: "JSONLator | Traduzca sus documentos JSON de forma rápida y eficiente",
+  description: "En esta aplicación, puedes traducir tus documentos JSON de forma rápida y eficiente. Puedes cargar un archivo JSON, seleccionar el idioma de destino y obtener la traducción al instante. Ideal para desarrolladores y traductores que trabajan con datos estructurados.",
 };
 
 export default function RootLayout({
