@@ -57,8 +57,8 @@ export const FormJSON = () => {
     toast(title, {
       description,
       action: {
-        label: "Close",
-        onClick: () => console.log("Close"),
+        label: "Cerrar",
+        onClick: () => console.log("Cerrar"),
       },
     })
   }
@@ -67,15 +67,15 @@ export const FormJSON = () => {
     try {
       if (!files[0]) {
         return handleToast({
-          title: "A json cannot be translated at this time.",
-          description: "Please upload a json file to continue."
+          title: "No se puede traducir un json en este momento.",
+          description: "Sube un archivo json para continuar."
         })
       }
   
       if (!targetLang) {
         return handleToast({
-          title: "A json cannot be translated at this time.",
-          description: "Please select a target language to continue."
+          title: "No se puede traducir un json en este momento.",
+          description: "Seleccione un idioma para continuar."
         })
       }
 
@@ -89,8 +89,8 @@ export const FormJSON = () => {
       
       setJsonString(JSON.stringify(JsonTranslated, null, 2));
       handleToast({
-        title: "Successful translation.",
-        description: "The json file was translated successfully."
+        title: "Traducción exitosa.",
+        description: "El archivo json fue traducido exitosamente."
       })
       confetti()
     } catch (error) {
