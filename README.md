@@ -9,7 +9,7 @@
 ## 🚀 Características
 
 ✅ Subir archivos JSON para su traducción.\
-✅ Convertir archivos JSON en strings y viceversa.\
+✅ Alta elección de idiomas para traducir archivos JSON.\
 ✅ Descargar los archivos JSON traducidos.\
 ✅ Interfaz moderna y fácil de usar.\
 ✅ Rápido procesamiento de archivos en el cliente.
@@ -26,8 +26,6 @@
 ### Dark mode:
 
 ![image](https://github.com/user-attachments/assets/74cb431d-5569-4d9c-b7dc-80864f3abde3)
-
-
 
 ---
 
