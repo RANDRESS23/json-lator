@@ -17,7 +17,7 @@ export const Header = () => {
             <ThemeSwitch />
           </li>
           <li className="hidden md:flex justify-center items-center">
-            <Link href="https://github.com/josemasster/JSONLator" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/RANDRESS23/json-lator" target="_blank" rel="noopener noreferrer">
               <ShinyButton>
                 <GitHub />
                 GitHub ⭐
